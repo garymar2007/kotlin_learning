@@ -19,4 +19,24 @@ fun main() {
     val circumference = 2 * pi * radius
 
     println("The circumference of circle with radius $radius is $circumference")
+    val role = 3
+    var salary = when (role) {
+        1, 2 -> "R50 000"
+        3, 4 -> "R100 000"
+        5, 6 -> "R120 000"
+        7    -> "R150 000"
+        else -> "R0"
+    }
+
+    println("Your salary is $salary")
 }
+
+//class Shape {
+//    var name = null
+//
+//    fun1(): String {
+//        return name
+//    }
+//
+//    String fun2() {}
+//}
