@@ -14,7 +14,7 @@ fun main() {
         println("i = $i")
     }
 
-    var radius: Double = 3.5
+    var radius: Double = 3.9
     val pi = 3.14
     val circumference = 2 * pi * radius
 
