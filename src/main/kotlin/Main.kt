@@ -31,6 +31,8 @@ fun main() {
     println("Your salary is $salary")
 }
 
+class Circle(var radius: Double)
+
 //class Shape {
 //    var name = null
 //
